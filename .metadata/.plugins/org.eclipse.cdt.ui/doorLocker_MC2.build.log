@@ -1,0 +1,20 @@
+05:51:42 **** Incremental Build of configuration Debug for project doorLocker_MC2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 doorLocker_MC2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8420 bytes (51.4% Full)
+(.text + .data + .bootloader)
+
+Data:        106 bytes (10.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+05:51:42 Build Finished. 0 errors, 0 warnings. (took 158ms)
+
